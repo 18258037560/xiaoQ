@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小奇回复</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="css/answer.css">
+    <link rel="stylesheet" href="css/dropload.css">
+    <script src="js/jquery-2.1.0.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/dropload.js"></script>
+</head>
+<body>
+<div class="answerBox">
+    <div class="answer">
+        <div class="icon">
+            <img class="mg" src="img/magnifier.png" alt="">
+        </div>
+        <input class="ipt" id="search" placeholder="输入关键词" type="search">
+    </div>
+</div>
+<div class="contentDrag">
+    <div class="lists">
+
+    </div>
+</div>
+<div class="write">
+    <img class="wt" src="img/write.png">
+</div>
+<div id="top" class="opacity">
+    <img class="topImg" src="img/top.png" alt="">
+</div>
+<script type="text/html" id="tmp">
+    <div class="q_answerBox">
+        <div class="titleBox">
+            <div class="title"><img class="xq" src="img/xq.png" alt="">{{question}}</div>
+        </div>
+        <div class="content">
+            <div class="cenT">
+                <div class="word">{{answer}}</div>
+                <div class="time">{{time}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="bgDiv"></div>
+</script>
+<script src="js/answer.js"></script>
+</body>
+</html>
